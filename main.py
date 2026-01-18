@@ -1,4 +1,3 @@
-
 import requests
 import time
 import os
@@ -23,4 +22,4 @@ sinais = [
 while True:
     sinal = random.choice(sinais)
     enviar(sinal)
-    time.sleep(1800)  # envia a cada 30 minutos
+    time.sleep(1800)
